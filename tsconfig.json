@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["dom","esnext"],
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "typeRoots": ["./node_modules/@types","./env.d.ts"]
+  },
+  "include": [
+    "env.d.ts",
+    "backend/lib/**/*.ts",
+    "backend/shared/**/*.ts",
+    "backend/pages/api/**/*.ts"
+  ],
+  "exclude": ["node_modules","frontend"]
+}
